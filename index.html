@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="keywords" content="template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -179,6 +179,9 @@
                     <a >Minha redes sociais:</a>
                   </div>
                   <ul class="modal--options">
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"
+                    />
                     <li><a href="https://www.linkedin.com/in/wesley-bezerra-0579811a2/">LinkedIn</a></li>
                     <li><a href="https://www.instagram.com/wesley_bmartins/">Instagram</a></li>
                     <li><a href="https://github.com/wesleybmartins124">GitHub</a></li>
@@ -204,7 +207,7 @@
                 </div>
                 <div>
                 <div>
-                <textarea style="background-color:transparent; width:85vmin; margin-right: 1em;" name="message" rows="5" type="message" placeholder="Sua mensagem"></textarea>
+                <textarea style="background-color:transparent; width:85vmin; margin-right: 1em;" name="message" rows="5" type="message" placeholder="Sua mensagem" required></textarea>
               </div>
             </div>
                 <input type="submit" value="Enviar">
